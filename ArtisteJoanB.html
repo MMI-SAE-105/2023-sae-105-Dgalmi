@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
+
+    <title>Accueil</title>
+    <header class="header">
+        <div class="container">
+          <div class="header__logo logo">
+            <a href="index.html"><img src="public/img/logo_noir-removebg-preview.png" alt="Logo du site"></a>
+          </div>
+          <div class="header__menu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlay__toggle toggle">
+                <img src="public/img/hAMBURGER.svg" alt="menu hamburger">
+            </button>
+            <div x-show="open" class="menu-overlay__content overlay-content">
+              <nav class="menu-overlay__nav overlay-nav">
+                <ul class="menu-overlay__list overlay-list">
+                  <li class="menu-overlay__item overlay-item"><a href="index.html">Accueil</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Exposition.html">Exposition</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Mouvement.html">Mouvement artistique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="FriseChrono.html">Frise chronologique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+
+<body>
+    <div class="carrousel" x-data="{
+        hrefCourant: '#ecran-1',
+        }">
+        <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant"
+            aria-label="slide précedant">
+            &lt;</button>
+        <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres"
+            aria-label="slide
+                suivant">></button>
+        <div class="carrousel_parent-ecrans" x-ref="parent">
+            <div id="ecran-1" class="carrousel_ecran">
+                <figure>
+                    <img class="img_img_carrousel" src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
+                    <figcaption>Ecran 1</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-2" class="carrousel_ecran">
+                <figure>
+                    <img  class="img_img_carrousel" src="https://picsum.photos/seed/2/500/300" alt="image ecran 2">
+                    <figcaption>Ecran 2</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img  class="img_img_carrousel" src="https://picsum.photos/seed/3/500/300" alt="image ecran 3">
+                    <figcaption>Ecran 3</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-4" class="carrousel_ecran">
+                <figure>
+                    <img  class="img_img_carrousel" src="https://picsum.photos/seed/4/500/300" alt="image ecran 4">
+                    <figcaption>Ecran 4</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-5" class="carrousel_ecran">
+                <figure>
+                    <img  class="img_img_carrousel" src="public/img/Joan_2.webp" alt="image ecran 5">
+                    <figcaption>Ecran 5</figcaption>
+                </figure>
+            </div>
+        </div>
+        <ul class="caroussel_liste-liens">
+            <li><a href="#ecran-1" class="caroussel_lien {actif:hrefCourant==='#ecran-1'}">ecran 1</a></li>
+            <li><a href="#ecran-2" class="caroussel_lien {actif:hrefCourant==='#ecran-2'}">ecran 2</a></li>
+            <li><a href="#ecran-3" class="caroussel_lien {actif:hrefCourant==='#ecran-3'}">ecran 3</a></li>
+            <li><a href="#ecran-4" class="caroussel_lien {actif:hrefCourant==='#ecran-4'}">ecran 4</a></li>
+            <li><a href="#ecran-5" class="caroussel_lien {actif:hrefCourant==='#ecran-5'}">ecran 5</a></li>
+        </ul>
+    </div>
+</body>
+</html>
