@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
+
+    <title>Accueil</title>
+    <header class="header">
+        <div class="container">
+          <div class="header__logo logo">
+            <a href="index.html"><img src="public/img/logo_noir-removebg-preview.png" alt="Logo du site"></a>
+          </div>
+          <div class="header__menu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlay__toggle toggle">
+                <img src="public/img/hAMBURGER.svg" alt="menu hamburger">
+            </button>
+            <div x-show="open" class="menu-overlay__content overlay-content">
+              <nav class="menu-overlay__nav overlay-nav">
+                <ul class="menu-overlay__list overlay-list">
+                  <li class="menu-overlay__item overlay-item"><a href="index.html">Accueil</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Exposition.html">Exposition</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Mouvement.html">Mouvement artistique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="FriseChrono.html">Frise chronologique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class="body"> 
+    
+</body>
+</html>

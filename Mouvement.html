@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
+
+    <title>Accueil</title>
+    <header class="header">
+        <div class="container">
+          <div class="header__logo logo">
+            <a href="index.html"><img src="public/img/logo_noir-removebg-preview.png" alt="Logo du site"></a>
+          </div>
+          <div class="header__menu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlay__toggle toggle">
+                <img src="public/img/hAMBURGER.svg" alt="menu hamburger">
+            </button>
+            <div x-show="open" class="menu-overlay__content overlay-content">
+              <nav class="menu-overlay__nav overlay-nav">
+                <ul class="menu-overlay__list overlay-list">
+                  <li class="menu-overlay__item overlay-item"><a href="index.html">Accueil</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Exposition.html">Exposition</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Mouvement.html">Mouvement artistique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="FriseChrono.html">Frise chronologique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class="body"> 
+    <h1 class="h1_centre" >L’art féministe</h1>
+    <p class="text_accueil"> L'art féministe est un mouvement artistique qui vise à mettre en avant les contributions des femmes dans le domaine
+         de l'art et à dénoncer les inégalités et les discriminations subies par les femmes dans le milieu artistique. Ce mouvement a pris de
+        l'ampleur dans les années 1960 et 1970, en même temps que le mouvement de libération des femmes. Les artistes féministes produisent des
+        œuvres qui abordent des thèmes tels que l'identité de genre, la sexualité, la maternité et l'autonomie des femmes, et qui mettent en
+         avant les expériences de vie et les préoccupations des femmes. L'art féministe inclut de nombreuses formes d'expression artistique,
+        notamment la peinture, la sculpture, l'installation, la photographie, le cinéma, la littérature et les arts de la performance.</p>
+    <h3>Quelque figure du l’art féministe :</h3>
+    <img class="img_mouvement" src="/public/img/Luchita hurtado .webp" alt="Image de luchita hurtado">
+    <p class="nom_mouvement">luchita hurtado </p>
+    <p class="text_accueil">Luchita Hurtado est une artiste vénézuélienne qui a produit de nombreuses œuvres dans les années 1950 et 1960,
+        notamment des peintures, des dessins et des collages. Ses œuvres mettent en avant les expériences de vie et les préoccupations des
+        femmes.</p>
+    <a href="" class="button_savoirplus">En savoir plus</a>
+
+    <img class="img_mouvement" src="/public/img/Joan_Brown.webp" alt="Image de Joan Brown">
+    <p class="nom_mouvement">Joan Brown </p>
+    <p class="text_accueil">Joan Brown est une artiste américaine qui a produit de nombreuses peintures, sculptures et installations
+        dans les années 1960 et 1970. Ses œuvres mettent en avant les expériences de vie et les préoccupations des femmes, et abordent
+        des thèmes comme la maternité, la sexualité et la liberté.</p>
+    <a href="" class="button_savoirplus">En savoir plus</a>
+
+    <img class="img_mouvement" src="/public/img/Harmonia_Rosales.webp" alt="Image de Harmonia Rosales">
+    <p class="nom_mouvement">Harmonia Rosales </p>
+    <p class="text_accueil">Harmonia Rosales est une artiste connue pour ses peintures et dessins qui mêlent mythologie,
+         nature et histoire de l'art. Ses œuvres sont inspirées par légendes et mythes africains et utilisent couleurs
+        vives et formes élaborées. Elles sont souvent considérées comme des célébrations de la vie et de la créativité et ont
+        été exposées dans de nombreux musées.</p>
+    <a href="" class="button_savoirplus">En savoir plus</a>
+
+    <img class="img_mouvement" src="/public/img/Miriam_schapiro.webp" alt="Image de Miriam schapiro">
+    <p class="nom_mouvement">Miriam Schapiro </p>
+    <p class="text_accueil">Miriam Schapiro est une artiste américaine qui a été l'une des pionnières de l'art féministe.
+         Elle a créé de nombreuses œuvres qui mettent en avant les travaux manuels et les traditions féminines,
+          et qui explorent les thèmes de l'identité de genre et de l'autonomie des femmes.</p>
+    <a href="" class="button_savoirplus">En savoir plus</a>
+    <footer>
+        <div class="footer_left">
+            <div class="footer_reseau">
+                <a class="footer_reseau_link"  href=""><img class="footer_reseau_logo" src="public/img/instagram.webp" alt="insta"></a>
+                <a class="footer_reseau_link" href=""><img class="footer_reseau_logo" src="public/img/facebook.webp" alt="Facebook"></a>
+            </div>
+            <a href="Exposition.html"><p>A propos</p></a>
+            <a href="https://www.fondationcartier.com/en/credits-legal"><p>Condiction d'utilisation</p></a>
+            <a href="https://www.fondationcartier.com/en/privacy"><p>Politique de confidentialité</p></a>
+            <a href="contact.html"><p>Contacter nous</p></a>
+            <a href=""><p>Copyright ; 2022 Fémin’art.fr . Tous droits réservés.</p></a>
+        </div>
+        
+        <div class="footer_logo">
+            <img src="public/img/DALL·E 2023-01-09 11.21 2.webp" alt="Logo">
+        </div>
+    </footer>
+    </body>
+    </html>
