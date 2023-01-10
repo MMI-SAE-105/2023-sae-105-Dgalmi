@@ -8,7 +8,7 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
 
-    <title>Oeuvre1JoanB</title>
+    <title>page d'artiste Luchita H</title>
     <header class="header">
         <div class="container">
           <div class="header__logo logo">
@@ -33,14 +33,46 @@
         </div>
     </header>
 </head>
-<body class="body"> 
-    <h1 class="h1_centre" >GIRL SITTING</h1>
-    <a href="ArtisteJoanB.html"><h3 class="h3_centre">Joan Brown</h3></a>
-    <img class="img_mouvement" src="public/img/Joan_1.webp" alt="Peinture de l'artiste">
-    <p class="text_accueil"><p class="text_accueil">L'œuvre de Joan Brown intitulée Girl Sitting 1962 représente une figure nue d'un corps féminin
-       assis. Cette œuvre colorée a été réalisée en 1962 et se trouve au Oakland Museum of California. Il s'agit d'une huile sur toile,
-        que l'on peut voir sur un mur blanc dans un cadre noir fin d'environ 1,5 m sur 1,4 m.</p>
-    <a href="https://www.123helpme.com/essay/Analysis-Of-Girl-Sitting-1962-704880#:~:text=Joan%20Brown's%20piece%20titled%20Girl,around%20five%20by%20four%20feet." class="button_savoirplus">En savoir plus</a>
+
+<body>
+    <body class="body"> 
+        <h1 class="h1_centre_artiste" > Luchita hurtado </h1>
+        <img class="img_mouvement" src="/public/img/Luchita hurtado .webp" alt="Photo de l'artiste">
+        <p class="text_accueil"><p class="text_accueil">Elle évolue toute sa vie dans le milieu artistique, rencontrant plusieurs des artistes les plus importants du xxe siècle.
+             Mariée trois fois, notamment aux artistes surréalistes Wolfgang Paalen et Lee Mullican, elle a quatre enfants.
+            Se consacrant à sa vie familiale et domestique, elle ne cesse de peindre toute sa vie sans pour autant faire connaître son œuvre.
+            Ce n'est qu'au contact de groupes d'artistes féministes dans les années 1970 qu'elle se libère et tient sa première exposition personnelle.
+            Elle est finalement découverte en 2015 et acquiert subitement une grande renommée en 2018, à l'âge de 97 ans.
+        </p>
+        <h1 class="h1_centre_ex_oeuvre" > Exemple d'oeuvre </h1>
+    <div class="carrousel" x-data="{
+        hrefCourant: '#ecran-1',
+        }">
+        <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant"
+            aria-label="slide précedant">
+            &lt;</button>
+        <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres"
+            aria-label="slide
+                suivant">></button>
+        <div class="carrousel_parent-ecrans" x-ref="parent">
+            <div id="ecran-1" class="carrousel_ecran">
+                <figure>
+                    <img class="img_img_carrousel" src="/public/img/Luchita_1.webp" alt="peinture numero 1">
+                    <figcaption>Untitle</figcaption>
+                </figure>
+            </div>
+            <div id="ecran-2" class="carrousel_ecran">
+                <figure>
+                    <img  class="img_img_carrousel" src="/public/img/Luchita_2.webp" alt="peinture numero 2">
+                    <figcaption>The Umbilical Cord of the Earth is the Moon</figcaption>
+                </figure>
+            </div>
+        </div>
+        <ul class="caroussel_liste-liens">
+            <li><a href="Oeuvre1LuchitaH.html" class="caroussel_lien {actif:hrefCourant==='#ecran-1'}">Untitle</a></li>
+            <li><a href="Oeuvre2luchitaH.html" class="caroussel_lien {actif:hrefCourant==='#ecran-2'}">The Umbilical Cord of the Earth is the Moon</a></li>
+        </ul>
+    </div>
     <footer>
         <div class="footer_left">
             <div class="footer_reseau">
