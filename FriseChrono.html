@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
+
+    <title>Accueil</title>
+    <header class="header">
+        <div class="container">
+          <div class="header__logo logo">
+            <a href="index.html"><img src="public/img/logo_noir-removebg-preview.png" alt="Logo du site"></a>
+          </div>
+          <div class="header__menu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlay__toggle toggle">
+                <img src="public/img/hAMBURGER.svg" alt="menu hamburger">
+            </button>
+            <div x-show="open" class="menu-overlay__content overlay-content">
+              <nav class="menu-overlay__nav overlay-nav">
+                <ul class="menu-overlay__list overlay-list">
+                  <li class="menu-overlay__item overlay-item"><a href="index.html">Accueil</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Exposition.html">Exposition</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Mouvement.html">Mouvement artistique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="FriseChrono.html">Frise chronologique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class="body"> 
+   <img class="fleche_chrono" src="/public/img/flèche chrono.webp" alt="">
+   <img class="img1_chrono" src="/public/img/Joan_1.webp" alt="1er peinture du Joan">
+  </div>
+      <footer>
+        <div class="footer_left">
+            <div class="footer_reseau">
+                <a class="footer_reseau_link"  href=""><img class="footer_reseau_logo" src="public/img/instagram.webp" alt="insta"></a>
+                <a class="footer_reseau_link" href=""><img class="footer_reseau_logo" src="public/img/facebook.webp" alt="Facebook"></a>
+            </div>
+            <a href="Exposition.html"><p>A propos</p></a>
+            <a href="https://www.fondationcartier.com/en/credits-legal"><p>Condiction d'utilisation</p></a>
+            <a href="https://www.fondationcartier.com/en/privacy"><p>Politique de confidentialité</p></a>
+            <a href="contact.html"><p>Contacter nous</p></a>
+            <a href=""><p>Copyright ; 2022 Fémin’art.fr . Tous droits réservés.</p></a>
+        </div>
+        
+        <div class="footer_logo">
+            <img src="public/img/DALL·E 2023-01-09 11.21 2.webp" alt="Logo">
+        </div>
+    </footer>
+    </body>
+    </html>
