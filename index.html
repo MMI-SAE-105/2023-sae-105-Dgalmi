@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
+
+    <title>Accueil</title>
+    <header class="header">
+        <div class="container">
+          <div class="header__logo logo">
+            <a href="index.html"><img src="public/img/logo_noir-removebg-preview.png" alt="Logo du site"></a>
+          </div>
+          <div class="header__menu-overlay menu-overlay" x-data="{ open: false }">
+            <button @click="open = !open" class="menu-overlay__toggle toggle">
+                <img src="public/img/hAMBURGER.svg" alt="menu hamburger">
+            </button>
+            <div x-show="open" class="menu-overlay__content overlay-content">
+              <nav class="menu-overlay__nav overlay-nav">
+                <ul class="menu-overlay__list overlay-list">
+                  <li class="menu-overlay__item overlay-item"><a href="index.html">Accueil</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Exposition.html">Exposition</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="Mouvement.html">Mouvement artistique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="FriseChrono.html">Frise chronologique</a></li>
+                  <li class="menu-overlay__item overlay-item"><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+</head>
+<body class="body"> 
+<img src="public/img/packimg.webp" class="packimg" alt="3 Oeuvres d'art">
+<p class="text_accueil"> L'art féministe est un mouvement artistique qui met en avant les contributions des femmes dans le domaine de l'art
+     et qui vise à dénoncer les inégalités et les discriminations subies par les femmes dans le milieu artistique. Ce mouvement a pris de
+      l'ampleur dans les années 1960 et 1970, en même temps que le mouvement de libération des femmes.</p>
+
+<p class="text_accueil"> Plusieurs artistes ont contribué au mouvement de l'art féministe, 
+parmi lesquelles on peut citer Luchita Hurtado, Miriam Schapiro, Joan Brown et Harmonia Rosales.</p>
+<a href="https://fondation-cartier.tickeasy.com/en-US/home">
+<button class="button_billeterie" href="https://fondation-cartier.tickeasy.com/en-US/home">
+    Accès a la billetrie
+</button>
+</a>
+</body>
+</html>

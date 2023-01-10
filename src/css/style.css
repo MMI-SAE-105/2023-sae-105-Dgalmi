@@ -1,0 +1,101 @@
+.header {
+    background-color: #ABABAB;
+  }
+.body {
+background-color: white;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    margin-left: 16px;
+  }
+  
+  .logo img {
+    width: 60px;
+  }
+  
+  .menu-overlay {
+    position: relative;
+    margin-right: 16px;
+  }
+  
+  .toggle {
+    background-color: #ABABAB;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 1px;
+    position: relative;
+  }
+  
+  .overlay-content {
+    background-color: #ABABAB;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    transform: translateY(8px);
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+  }
+  
+  .overlay-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .overlay-item {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .overlay-item a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .packimg {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .text_accueil {
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+    
+  }
+  .button_savoirplus {
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    background: linear-gradient(90deg, #DA72FF 0%, #77B5FE 100%);;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    border: none;
+    
+}
+.button_billeterie {
+    color: black;
+    border-radius: 20px;
+    padding-top: 5px;
+    background: white;
+    padding-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    
+}
