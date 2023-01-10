@@ -8,7 +8,7 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="icon" type="image" sizes="16x16" href="public/img/logo_noir.jpg">
 
-    <title>page d'artiste Harmonia Rosales</title>
+    <title>Oeuvre 1 Miriam schapiro</title>
     <header class="header">
         <div class="container">
           <div class="header__logo logo">
@@ -33,43 +33,16 @@
         </div>
     </header>
 </head>
-
-<body>
-    <body class="body"> 
-        <h1 class="h1_centre_artiste" > Harmonia Rosales </h1>
-        <img class="img_mouvement" src="/public/img/Harmonia_Rosales.webp" alt="Photo de l'artiste">
-        <p class="text_accueil"><p class="text_accueil">Harmonia Rosales est une artiste américaine, d'origine afro-cubaine, née en 1984,
-            à Chicago, où elle vit et travaille. À travers son art pictural, elle réinterprète les principales œuvres de la Renaissance,
-             dont elle s'inspire pour mettre en valeur des femmes noires comme sujets principaux.
-        <h1 class="h1_centre_ex_oeuvre" > Exemple d'oeuvre </h1>
-    <div class="carrousel" x-data="{
-        hrefCourant: '#ecran-1',
-        }">
-        <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant"
-            aria-label="slide précedant">
-            &lt;</button>
-        <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres"
-            aria-label="slide
-                suivant">></button>
-        <div class="carrousel_parent-ecrans" x-ref="parent">
-            <div id="ecran-1" class="carrousel_ecran">
-                <figure>
-                    <img class="img_img_carrousel" src="/public/img/Harmonia_1.webp" alt="peinture numero 1">
-                    <figcaption>The creation of god</figcaption>
-                </figure>
-            </div>
-            <div id="ecran-2" class="carrousel_ecran">
-                <figure>
-                    <img  class="img_img_carrousel" src="/public/img/Harmonia_2.webp" alt="peinture numero 2">
-                    <figcaption>Assumption of a Woman</figcaption>
-                </figure>
-            </div>
-        </div>
-        <ul class="caroussel_liste-liens">
-            <li><a href="Oeuvre1HarmoniaR.html" class="caroussel_lien {actif:hrefCourant==='#ecran-1'}">The Creation of God</a></li>
-            <li><a href="Oeuvre2HarmoniaR.html" class="caroussel_lien {actif:hrefCourant==='#ecran-2'}">Assumption of a Woman</a></li>
-        </ul>
-    </div>
+<body class="body"> 
+    <h1 class="h1_centre" >Agony in the Garden</h1>
+    <a href="ArtisteMiriamS.html"><h3 class="h3_centre">Miriam schapiro</h3></a>
+    <img class="img_mouvement" src="public/img/Miriam_1.webp" alt="Peinture de l'artiste">
+    <p class="text_accueil"><p class="text_accueil">Cette peinture à grande échelle fait partie d'une série Collaboration entamée au milieu
+       des années 1970, dans laquelle Schapiro dialogue avec des femmes artistes célèbres et leur rend hommage, en l'occurrence Frida Kahlo,
+        dont l'autoportrait The Broken Column, 1944, est reproduit au centre. Schapiro est une artiste féministe pionnière qui, avec Judy Chicago,
+         a fondé le Feminist Art Program au California Institute of the Arts en 1971, le premier programme de ce type à encourager les femmes à faire
+          de l'art à partir de leurs expériences personnelles.</p>
+    <a href="https://www.brooklynmuseum.org/opencollection/objects/146910" class="button_savoirplus">En savoir plus</a>
     <footer>
         <div class="footer_left">
             <div class="footer_reseau">
