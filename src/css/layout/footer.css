@@ -47,3 +47,11 @@ footer{
     margin-top: 5%;
     font-size: var(--body-1);
   }
+  .footer_logo {
+    margin-top: 20%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    width: 38px;
+    height: auto;
+
+  }
