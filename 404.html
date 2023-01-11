@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<title>404 | Page non trouvée</title>
+<h1>Page non trouvée</h1>
+<H2>ERREUR 404</H2>
+<form action="https://google.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:http:/feminart.dany-galmiche.fr/'">
+    <label for="q">Que cherchez-vous ?</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
+
+<h2>Vous cherchiez ?</h2>
+<a href="index.html"><p>Accueil</p></a>
+<a href="Mouvement.html"><p>l'art féméniste</p></a>
+<a href="Exposition.html"><p>Exposition</p></a>
+<a href="FriseChrono.html"><p>Frise chronologique</p></a>
