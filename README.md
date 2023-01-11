@@ -4,7 +4,7 @@
 - URL du site : https://feminart.dany-galmiche.fr/frisechrono
 - URL FIGMA : https://www.figma.com/file/ooYAm4pdLsv6c49VEE3pDF/SAE-105-(2022)-(Copy)?node-id=322%3A1210&t=DONXeD3EO4L6sMCx-1
 
-- URL du site : https://feminart.dany-galmiche.fr/reports/index.html
+- URL lighthouse: https://feminart.dany-galmiche.fr/reports/index.html
 
 # Structure de départ pour la SAE 105.
 
