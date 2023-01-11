@@ -95,6 +95,7 @@ background-color: white;
     padding-bottom: 5px;
     margin-left: 15px;
     margin-top: 10px;
+    margin-bottom: 15px;
     margin: auto;
     display: flex;
     
@@ -281,4 +282,25 @@ text-align: center;
   }
   .fleche_img_chrono {
     position: relative;
+  }
+  .fade-in {
+    transition: opacity .3s ease;
+    opacity: 0;
+  }
+  .fade-in-enter-active {
+    opacity: 1;
+  }
+  .button_alpine {
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding-top: 5px;
+    background: linear-gradient(90deg, #DA72FF 0%, #77B5FE 100%);;
+    padding-bottom: 5px;
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block ;
+    border: none;
+    
   }
