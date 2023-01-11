@@ -242,13 +242,43 @@ text-align: center;
     list-style: none;
     gap: 1rem;
 }
+
+.frise{
+  display: flex;
+  flex-direction: row;
+}
+
+.frise__img{
+  display: flex;
+  flex-direction: column;
+}
 .fleche_chrono {
-    height: 50%;
-    width: 50%;
-    margin-bottom: 10%;
-    margin-left: 53%;
+  height: auto;
+  width: 39%;
+  margin-bottom: 10%;
+  margin-left: 53%;
+  position: absolute;
+  top: 0;
   }
   .img1_chrono{
-    height: 300%;
-    width: 40%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5% ;
+  }
+  .img2_chrono{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 20% ;
+  }
+  .img3_chrono{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5% ;
+    margin-bottom:5% ;
+  }
+  .fleche_img_chrono {
+    position: relative;
   }
