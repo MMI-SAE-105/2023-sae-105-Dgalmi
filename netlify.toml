@@ -10,61 +10,61 @@
   path = "Mouvement.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
+  output_path="reports/FriseChrono.html"
   path = "FriseChrono.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/index.html"
+  output_path="reports/Exposition.html"
   path = "Exposition.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
+  output_path="reports/Contact.html"
   path = "Contact.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
+  output_path="reports/Oeuvre2MiriamS.html"
   path = "Oeuvre2MiriamS.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/index.html" 
-  path = "Oeuvre2LuchitaH" #la racine du site
+  output_path="reports/Oeuvre2LuchitaH.html" 
+  path = "Oeuvre2LuchitaH.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "Oeuvre2JoanB" #la racine du site
+  output_path="reports/Oeuvre2JoanB.html"
+  path = "Oeuvre2JoanB.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "Oeuvre2HarmoniaR" #la racine du site
+  output_path="reports/Oeuvre2HarmoniaR.html"
+  path = "Oeuvre2HarmoniaR.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/index.html"
-  path = "Oeuvre1MiriamS" #la racine du site
+  output_path="reports/Oeuvre1MiriamS.html"
+  path = "Oeuvre1MiriamS.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "Oeuvre1LuchitaH" #la racine du site
+  output_path="reports/Oeuvre1LuchitaH.html"
+  path = "Oeuvre1LuchitaH.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "Oeuvre1JoanB" #la racine du site
+  output_path="reports/Oeuvre1JoanB.html"
+  path = "Oeuvre1JoanB.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "Oeuvre1HarmoniaR" #la racine du site
+  output_path="reports/Oeuvre1HarmoniaR.html"
+  path = "Oeuvre1HarmoniaR.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "ArtisteMiriamS" #la racine du site
+  output_path="reports/ArtisteMiriamS.html"
+  path = "ArtisteMiriamS.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/index.html"
-  path = "ArtisteLuchitaH" #la racine du site
+  output_path="reports/ArtisteLuchitaH.html"
+  path = "ArtisteLuchitaH.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "ArtisteJoanB" #la racine du site
+  output_path="reports/ArtisteJoanB.html"
+  path = "ArtisteJoanB.html" #la racine du site
 
   [[plugins.inputs.audits]]
-  output_path="reports/Mouvement.html"
-  path = "ArtisteHarmoniaR" #la racine du site
+  output_path="reports/rtisteHarmoniaR.html"
+  path = "ArtisteHarmoniaR.html" #la racine du site
