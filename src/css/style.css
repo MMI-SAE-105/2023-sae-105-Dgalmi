@@ -89,15 +89,19 @@ background-color: white;
 }
 .button_billeterie {
     color: black;
-    border-radius: 20px;
+    border-radius: 20px 20px;
     padding-top: 5px;
-    background: white;
+    padding-left: 0.8em;
     padding-bottom: 5px;
-    margin-left: 15px;
     margin-top: 10px;
     margin-bottom: 15px;
-    margin: auto;
+    margin-left: 6.5em;
+    margin-right: 6em;
     display: flex;
+    text-decoration: none;
+    text-align: center;
+    border-color: #000;
+    border:solid;
     
 }
 p,h2,h3 {
