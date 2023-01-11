@@ -1,0 +1,70 @@
+[[plugins]]
+ package = "@netlify/plugin-lighthouse"
+ 
+  [[plugins.inputs.audits]]
+    output_path="reports/index.html"
+    path = "index.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Mouvement.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "FriseChrono.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/index.html"
+  path = "Exposition.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Contact.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Oeuvre2MiriamS.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/index.html" 
+  path = "Oeuvre2LuchitaH" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Oeuvre2JoanB" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Oeuvre2HarmoniaR" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/index.html"
+  path = "Oeuvre1MiriamS" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Oeuvre1LuchitaH" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Oeuvre1JoanB" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "Oeuvre1HarmoniaR" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "ArtisteMiriamS" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/index.html"
+  path = "ArtisteLuchitaH" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "ArtisteJoanB" #la racine du site
+
+  [[plugins.inputs.audits]]
+  output_path="reports/Mouvement.html"
+  path = "ArtisteHarmoniaR" #la racine du site
